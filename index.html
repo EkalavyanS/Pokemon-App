@@ -6,31 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <div id="userinput-feild">
-        <input type="text" name="" id="pokemon-name-input">
-        <button id="submit-btn">Submit</button>
-        <div>
-            <img src="pikachu.jpg" alt="">
-            <div id="name-pokemon">
-                <h3>Name:</h3>
-                <h3>Pikachu</h3>
-            </div>
-            <div id="ability-pokemon">
-                <h3>Ablities:</h3>
-                <h3>blaze, torrent</h3>
-            </div>
-            <div id="moves-pokemon">
-                <h3>Moves:</h3>
-                <h3>Pikachu</h3>
-            </div>
-            <div id="type-pokemon">
-                <h3>Type:</h3>
-                <h3>Pikachu</h3>
-            </div>
+        <input type="text" name="" id="pokemon-name-input" placeholder="Enter the pokemon's name..">
+        <button id="submit-btn" class="btn btn-success ">Submit</button>
+    </div>
+    <div>
+        <img src="pikachu.jpg" alt="">
+        <div id="details">
+        <div id="name-pokemon">
+            <h5>Name:</h5>
+            <h5>Pikachu</h5>
         </div>
+        <div id="ability-pokemon">
+            <h5>Ablities:</h5>
+            <h5>blaze, torrent</h5>
+        </div>
+        <div id="moves-pokemon">
+            <h5>Moves:</h5>
+            <h5>Pikachu</h5>
+        </div>
+        <div id="type-pokemon">
+            <h5>Type:</h5>
+            <h5>Pikachu</h5>
+        </div>
+        </div>
+    </div>
 </body>
 
 </html>
