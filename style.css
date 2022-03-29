@@ -36,7 +36,7 @@
     word-wrap: break-word;
     left: -5%;
     top: 50%;
-    background: lightgrey;
+    background: cyan;
     padding: 3%;
     padding-left: 20px;
     padding-right: 10px;
@@ -50,5 +50,5 @@
     margin: 0 auto;
 }
 body {
-    background-image: linear-gradient(270deg, lightblue, blue)
+    background-image: url("https://th.bing.com/th/id/R.065e5e9239f7d492dc3d64e57e84d6ed?rik=QsZqK9cCRm5IVg&riu=http%3a%2f%2fteambeyond.net%2fwp-content%2fuploads%2f2017%2f09%2fPokemon.jpg&ehk=jsSpapzeeEr1abhyaDYtnzaWUZXmuYbQi6%2bkysUfvIk%3d&risl=&pid=ImgRaw&r=0");
 }
