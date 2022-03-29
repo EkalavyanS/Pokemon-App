@@ -35,5 +35,11 @@ function main() {
       var typetag = document.getElementById("type-pokemon") 
       typetag.innerText = strtype
       typetag.style.fontWeight = "bold" 
+      var heighttag = document.getElementById("height-pokemon") 
+      heighttag.innerText = "Height:" + data["height"]
+      heighttag.style.fontWeight = "bold" 
+      var weighttag = document.getElementById("weight-pokemon") 
+      weighttag.innerText = "Weight:" + data["weight"]
+      weighttag.style.fontWeight = "bold"
     });
 }
