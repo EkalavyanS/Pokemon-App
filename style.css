@@ -19,14 +19,14 @@ overflow-y:auto;
     justify-self: center;
     position: fixed;
     left: 20%;
-    top: 2%;
+    top: 4%;
 }
 #submit-btn {
     width: 20%;
     height: 40px;
     position: fixed;
     left: 73%;
-    top: 2%;
+    top: 4%;
     border-radius: 15px;
 }
 #details {
@@ -38,6 +38,7 @@ overflow-y:auto;
     flex-flow: column wrap;
     margin: 0 auto;
     position: relative;
+    top:100px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     left: -5%;
