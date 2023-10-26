@@ -1,5 +1,6 @@
 body {
 overflow-y:auto;
+    height:15vh;
 }
 #userinput-feild {
     width: 80%;
