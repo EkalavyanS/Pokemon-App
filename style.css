@@ -19,14 +19,14 @@ overflow-y:auto;
     justify-self: center;
     position: fixed;
     left: 20%;
-    top: 7%;
+    top: 8%;
 }
 #submit-btn {
     width: 20%;
     height: 40px;
     position: fixed;
     left: 73%;
-    top: 7%;
+    top: 8%;
     border-radius: 15px;
 }
 #details {
