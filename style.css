@@ -38,7 +38,7 @@ overflow-y:auto;
     flex-flow: column wrap;
     margin: 0 auto;
     position: absolute;
-    top:350px;
+    top:50vh;
     overflow-wrap: break-word;
     word-wrap: break-word;
     left: -5%;
