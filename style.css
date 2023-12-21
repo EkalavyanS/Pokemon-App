@@ -1,12 +1,6 @@
-body {
-overflow-y:auto;
-    height:105vh;
-}
 #userinput-feild {
     width: 80%;
     height: 50px;
-    position:relative;
-    top:300px;
     justify-content: center;
     margin: 0 auto;
     display: flex;
@@ -18,31 +12,33 @@ overflow-y:auto;
     border-radius: 20px;
     justify-self: center;
     position: fixed;
-    left: 20%;
-    top: 8%;
+    left: 15%;
+    top: 3%;
+    padding:10px;
+    padding-left:30px;
 }
 #submit-btn {
     width: 20%;
     height: 40px;
     position: fixed;
-    left: 73%;
-    top: 8%;
+    left: 68%;
+    top: 3%;
     border-radius: 15px;
 }
 #details {
-    width: 400px;
+    width: 450px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     flex-flow: column wrap;
     margin: 0 auto;
-    position: absolute;
-    top:15vh;
+    position: relative;
     overflow-wrap: break-word;
     word-wrap: break-word;
     left: -5%;
-    background: cyan;
+    top: 50%;
+    background: lightgrey;
     padding: 3%;
     padding-left: 20px;
     padding-right: 10px;
@@ -55,6 +51,18 @@ overflow-y:auto;
     position: relative;
     margin: 0 auto;
 }
-body {
-    background-image: url("https://th.bing.com/th/id/R.065e5e9239f7d492dc3d64e57e84d6ed?rik=QsZqK9cCRm5IVg&riu=http%3a%2f%2fteambeyond.net%2fwp-content%2fuploads%2f2017%2f09%2fPokemon.jpg&ehk=jsSpapzeeEr1abhyaDYtnzaWUZXmuYbQi6%2bkysUfvIk%3d&risl=&pid=ImgRaw&r=0");
+
+@media (max-width:518px) {
+    #details {
+        width:80vw;
+        margin:20px;
+        margin:0 auto;
+        top:100px;
+    }
+    #pokemon-name-input {
+        left:10%
+    }
+    #submit-btn {
+        left:64%
+    }
 }
